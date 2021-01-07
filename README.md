@@ -3,13 +3,13 @@
 ### aplicação em produção : https://hp-view.herokuapp.com/main/list
 ### github: https://github.com/MarceloHls/mvc-harryPotter.git
 
-## A aplicação faz consumo de uma api onde é disponilizado detalhes de alguns personagens do harry potter.
+## A aplicação faz consumo de uma api onde é disponibilizado detalhes de alguns personagens do harry potter.
 
-## Foi desenvolvido com NodeJs, ReactJs e PostgreSQ, utiliznado da arquitetura MVC.
+## Foi desenvolvido com NodeJs, ReactJs e PostgreSQ, utilizando a arquitetura MVC.
 
 # Model
 
-### Para armazenar dados do login do usuario foi utilizado o banco de dados PostgreSQl implementado em Microsoft Azure
+### Para armazenar dados do login do usuário foi utilizado o banco de dados PostgreSQl implementado em Microsoft Azure
 
 # Controller 
 
