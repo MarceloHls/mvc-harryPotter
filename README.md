@@ -17,4 +17,4 @@
 
 # View
 
-### A view desenvolvida em ReactJS e Redux e faz o consuma dos dados o controller.
+### A view desenvolvida em ReactJS e Redux e faz o consumo dos dados do controller.
