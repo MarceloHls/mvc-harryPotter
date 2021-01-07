@@ -1,0 +1,35 @@
+{
+  "name": "projeto_harry_potter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Startup.js",
+  "scripts": {
+    "start": "node ./Startup.js",
+    "start-dev": "nodemon ./Startup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

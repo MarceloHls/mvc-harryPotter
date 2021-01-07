@@ -1,0 +1,26 @@
+.search .results-seach {
+    width: 200px;
+    border: 1px solid black;
+    margin-top: -14px;
+    background-color: white;
+}
+
+.search .results-seach.closed {
+    display: none;
+}
+
+@media(max-width:630px) {
+    .search .results-seach {
+        width: 150px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:300px) {
+    .search .results-seach {
+        width: 120px;
+        margin-left: 10px;
+    }
+}
+
+

@@ -1,0 +1,13 @@
+.changePassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--red);
+}
+
+
+.changePassword h1 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}

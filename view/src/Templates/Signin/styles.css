@@ -1,0 +1,132 @@
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--red);
+}
+
+.signin h1 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.login {
+    background-color: var(--yellow);
+    box-shadow: 0.5px 0.5px 5px 0px black;
+    border-radius: 3%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.inputs p {
+    color: black;
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+}
+
+.inputs div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.inputs .password div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.inputs div a {
+    outline: none;
+    color: var(--red);
+    font-size: 20px;
+}
+
+.inputs div input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.1px black solid;
+    margin: 5px;
+    padding: 10px;
+    align-self: center;
+    font-size: 30px;
+}
+
+.inputs span {
+    font-size: 26px;
+    color: var(--red);
+}
+
+.inputs button {
+    align-self: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    background-color: var(--red);
+    margin: 10px;
+    border: 0;
+    font-size: 40px;
+}
+
+.inputs button:hover {
+    opacity: 0.8;
+}
+
+.inputs button:active {
+    background-color: rgb(199, 231, 231);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.links a {
+    margin: 10px;
+    color: var(--yellow);
+    font-size: 20px;
+}
+
+@media(max-width:630px) {
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+    .inputs div input {
+        width: 250px;
+        height: 40px;
+      
+    }
+}
+
+@media(max-width:300px) {
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+    }
+    .inputs div input {
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+      
+    }
+}

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Harry P;
+}
+
+@font-face {
+    font-family: 'Harry P';
+    src: url('../HARRYP__.TTF');
+}
+
+:root {
+    --red: #7F0909;
+    --yellow: #FFC500;
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    grid-template-areas: 'main' 'footer';
+    overflow-x: hidden;
+    background-color: var(--yellow);
+}
+
+/* width */
+::-webkit-scrollbar {
+    
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   
+    background: var(--yellow);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--red);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--red);
+  }

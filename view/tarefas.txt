@@ -1,0 +1,14 @@
+3 telas 
+
+- Lista com os personagens
+    personagens
+    header com usuario
+
+- Detalhes do personagem
+    Detalhes
+    header com usuario
+
+- Login
+    Login
+
+

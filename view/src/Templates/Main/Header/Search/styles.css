@@ -1,0 +1,30 @@
+.search .input-search input {
+    width: 200px;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+.search .input-search {
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:630px) {
+    .search .input-search input {
+        margin-left: 10px;
+        width: 150px;
+        font-size: 20px;
+        padding: 3px 7px;
+    }
+}
+
+@media(max-width:300px) {
+    .search .input-search input {
+        margin-left: 9px;
+        width: 120px;
+        font-size: 18px;
+        padding: 2px 6px;
+    }
+}
